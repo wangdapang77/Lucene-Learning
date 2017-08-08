@@ -18,7 +18,7 @@ import java.io.IOException;
  */
 public class CreateIndex {
     public static void main(String[] args) {
-        // 实例化词法分析器
+        // 实例化词法分析器（标准分析器）
         Analyzer analyzer = new StandardAnalyzer();
         // 对indexWriter进行配置
         IndexWriterConfig indexWriterConfig = new IndexWriterConfig(analyzer);
@@ -53,7 +53,7 @@ public class CreateIndex {
         document2.add(new TextField("name", "Lucene简介", Field.Store.YES));
         document2.add(new TextField("content", "Lucene 是一个基于 Java 的全文" +
                 "信息检索工具包，它不是一个完整的搜索应用程序，而是为你的应用程序提供" +
-                "索引和搜索功能。", Field.Store.NO));
+                "索引和搜索功能。", Field.Store.YES));
 
         try {
             // 将文档写入索引中

@@ -8,6 +8,7 @@
   <modules>
     <module>Lucene-HelloWorld</module>
     <module>Chapter01-Lucene-CreateIndex</module>
+    <module>Chapter02-Lucene-SearchIndex</module>
   </modules>
   <packaging>pom</packaging>
 
