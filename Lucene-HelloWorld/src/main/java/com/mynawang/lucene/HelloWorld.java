@@ -34,7 +34,7 @@ public class HelloWorld {
         // Directory directory = new RAMDirectory();
 
         // 确定文件在硬盘中，用下面这段
-        Directory directory = FSDirectory.open(new File("G:\\Rabbish\\testindex").toPath());
+        Directory directory = FSDirectory.open(new File("E:\\JavaPOJO\\Lucene\\Rabbish\\testindex").toPath());
         // 对indexWriter进行配置
         IndexWriterConfig config = new IndexWriterConfig(analyzer);
         IndexWriter iwriter = new IndexWriter(directory, config);
