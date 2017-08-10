@@ -10,6 +10,7 @@
     <module>Chapter01-Lucene-CreateIndex</module>
     <module>Chapter02-Lucene-SearchIndex</module>
     <module>Chapter03-Lucene-Analyzer</module>
+    <module>Chapter04-Lucene-Query</module>
   </modules>
   <packaging>pom</packaging>
 

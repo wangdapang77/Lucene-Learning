@@ -31,7 +31,6 @@ public class LuceneAnalyzer {
 
         Analyzer analyzer = null;
 
-
         // 标准分词器
         analyzer = new StandardAnalyzer();
         exeAnalyzer(analyzer);
